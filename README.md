@@ -12,7 +12,7 @@
 4. Запустите программу командой:
 
 ```bash
-python calculator_program.py
+python calculate.py
 ```
 
 ## Использование программы
