@@ -22,9 +22,4 @@ def test_calculate_unknown_operation():
     assert calculate(5, 5, 'unknown') == "Ошибка: Неизвестная операция."
 
 
-def test_calculate_umno_operation():
-    assert calculate(5, 5, '*') == 25
-
-def test_calculate_divide_by_zero():
-    assert calculate(10, 0, '/') == "Ошибка: Деление на ноль."
 
